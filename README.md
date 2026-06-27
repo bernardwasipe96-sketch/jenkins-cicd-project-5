@@ -146,3 +146,4 @@ If you ran on EC2, terminate the instance. Delete the ECR images and the IAM acc
 
 Complete all the challenges, then write a full report following `REPORT-TEMPLATE.md`. Submit as described in `ASSIGNMENT.md`.
 # trigger
+# trigger sonar fail
