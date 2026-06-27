@@ -10,12 +10,6 @@ import java.net.URI;
 import java.util.HashMap;
 import java.util.Map;
 
-/**
- * A tiny HTTP server with no external dependencies (it uses the JDK's
- * built-in com.sun.net.httpserver). In Project 3 the app is a web
- * service so that, once the pipeline deploys it, you can open it in a
- * browser. The Calculator logic is unchanged from Project 2.
- */
 public class App {
 
     private static final Calculator calculator = new Calculator();
@@ -26,7 +20,7 @@ public class App {
 
         server.createContext("/", exchange ->
                 respond(exchange, 200,
-                        "{\"message\":\"CI/CD Project 3 deployed by Benard Wasipe"\",\"status\":\"ok\"}"));
+                        "{\"message\":\"CI/CD Project 5 - Enterprise Pipeline with Quality Gates by BW!\",\"status\":\"ok\"}"));
 
         server.createContext("/health", exchange ->
                 respond(exchange, 200, "{\"status\":\"healthy\"}"));
