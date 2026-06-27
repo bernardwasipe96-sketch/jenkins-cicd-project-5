@@ -148,3 +148,4 @@ Complete all the challenges, then write a full report following `REPORT-TEMPLATE
 # trigger
 # trigger sonar fail
 # fix sonar gate
+# fix sonar gate
